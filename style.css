@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  background-image: url("images/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+
+}
+.slogan{
+  padding: 6% 0 0 28%;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+footer{
+  margin-top: 2%;
+  background-color: grey;
+}
+.footer-link{
+  color: aqua;
+}
+.footer-link:hover{
+  color: aquamarine;
+  text-decoration: none; 
+}
