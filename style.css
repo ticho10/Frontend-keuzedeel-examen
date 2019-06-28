@@ -1,9 +1,12 @@
+body{
+  font-size: 18px;
+}
 *{
   padding: 0;
   margin: 0;
 }
 .header{
-  background-image: url("images/maxresdefault.jpg");
+  background-image: url("images/header-image.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -45,7 +48,25 @@ footer{
   border-radius: 20px;
   box-shadow: 5px 5px 15px grey;
   text-align: center;
+  
 }
 .blokje-img{
     width: 100%;
+}
+.omheen{
+  margin-top: 50px;
+}
+.kaartje{
+  box-shadow: 5px 5px 15px grey;
+  border-radius: 20px;
+}
+.adres{
+  margin: 50px 25%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px grey;
+  text-align: center;
+}
+.foto{
+  width: 300px;
 }
