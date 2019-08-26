@@ -6,6 +6,22 @@ body{
   padding: 0;
   margin: 0;
 }
+.dingen{
+  background-image: url("images/blue2.jpg");
+  height: 75vh;
+  width: 100%;
+}
+.klik-blokje{
+  height: 15vh;
+  background: white;
+  border: black 1px solid;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+
+.klik-blokje:not(:last-child){
+  margin-right: 8%;
+}
 .width{
   width: 100%;
 }
