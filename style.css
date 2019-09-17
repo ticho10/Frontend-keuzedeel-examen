@@ -7,11 +7,7 @@ body{
   padding: 0;
   margin: 0;
 }
-.dingen{
-  background-image: url("images/blue2.jpg");
-  height: 700px;
-  width: 100%;
-}
+
 
 .klik-blokjes{
   margin-left: 270px;
@@ -129,9 +125,25 @@ li.active a, .navbar-nav li a:hover{
 .navbar, .container-nav, .nav-item{
   padding-bottom: 0 !important;
 }
+.dingen{
+  background-image: url("images/blue2.jpg");
+  height: 700px;
+  width: 100%;
+}
 }
 @media only screen and (max-width: 989px){
   .top-header{
     display: none;
+  }
+  .dingen{
+    background-image: url("images/blue2.jpg");
+    height: 100%;
+    width: 100%;
+  }
+  .dingen .card{
+    margin-top: 35px;
+  }
+  .dingen .col-sm-3:last-of-type{
+    margin-bottom: 35px !important;
   }
 }

@@ -1,0 +1,10 @@
+# Groep 1
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# Groep 2
+User-agent: *
+Allow: /
+
+Sitemap: http://25030.hosts1.ma-cloud.nl/frontend-keuzedeel-examen/sitemap.xml
+ 
