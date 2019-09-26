@@ -130,10 +130,14 @@ li.active a, .navbar-nav li a:hover{
   height: 700px;
   width: 100%;
 }
+
 }
 @media only screen and (max-width: 989px){
   .top-header{
     display: none;
+  }
+  .telefoon-plaatje{
+    width: 380px;
   }
   .dingen{
     background-image: url("images/blue2.jpg");
